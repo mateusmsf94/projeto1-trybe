@@ -1,5 +1,11 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
 body {
   background-color: rgb(253, 251, 251);
+  font-size: 20px;
+  color: lightseagreen;
+  line-height: 2em;
+  font-family: 'Roboto', sans-serif;
 }
 
 #cabecalho {
@@ -9,4 +15,6 @@ body {
   left: 50%;
   top: 0%;
   transform: translateX(-50%);
+  margin: 0;
+  border: 10px solid green;
 }
