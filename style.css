@@ -5,11 +5,10 @@ body {
   font-size: 20px;
   color: lightseagreen;
   line-height: 2em;
-  font-family: 'Roboto', sans-serif;
+  font-family: Roboto, sans-serif;
 }
 
 #cabecalho {
-  background-color: #ddd;
   position: fixed;
   padding: 2em;
   left: 50%;
@@ -19,8 +18,7 @@ body {
   border: 10px solid green;
 }
 
-.lado-esquerdo,
-.lado-direito {
+.lado-esquerdo , .lado-direito {
   display: inline-block;
   width: 300px;
 }
