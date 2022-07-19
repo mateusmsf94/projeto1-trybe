@@ -3,7 +3,10 @@ body {
 }
 
 #cabecalho {
+  background-color: #ddd;
   position: fixed;
-  top: 0;
+  padding: 2em;
+  left: 50%;
+  top: 0%;
+  transform: translateX(-50%);
 }
-
