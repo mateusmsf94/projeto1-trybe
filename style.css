@@ -3,7 +3,7 @@
 body {
   background-color: rgb(253, 251, 251);
   font-size: 10px;
-  color: #523F38;
+  color: rgb(82, 63, 56);
   line-height: 2em;
   font-family: Roboto, sans-serif;
   margin: 0;
@@ -11,7 +11,7 @@ body {
 
 h1 {
   margin: 0;
-  color: #FF715B;
+  color: rgb(255, 113, 91);
   text-align: center;
 }
 
@@ -24,12 +24,9 @@ header img {
 
 .licoes {
   display: flex;
-  background-color: #1EA896;
+  background-color: rgb(30, 168, 150);
   font-size: 20px;
-  /* width: 655px; */
   justify-content: space-between;
-  
-
 }
 
 
@@ -38,7 +35,7 @@ header img {
   padding: 30px;
   top: 0%;
   margin: 0;
-  background-color: #4C5454;
+  background-color: rgb(76, 84, 84);
   height: 100vh;
 }
 
@@ -47,29 +44,22 @@ header img {
   display: flex;
   font-size: 15px;
   line-height: 19px;
-  background-color: #FF715B;
+  background-color: rgb(255, 113, 91);
   justify-content: space-between;
-    
-  
 }
 
 .lado-esquerdo , .lado-direito {
   display: inline-block;
   width: 45%;
-  /* width: 300px; */
-   
-  
 }
 
 .container {
   display: flex;
   flex-direction: column;
   min-height: 100vh;
-  
-  
   position: fixed;
   left: 408px;
-  width: calc(100vw - 408px); 
+  width: calc(100vw - 408px);
 }
 
 .container > div {
@@ -78,22 +68,18 @@ header img {
 
 table {
   border-collapse: collapse;
-  border: 6px solid rgb(200,200,200);
+  border: 6px solid rgb(200, 200, 200);
   letter-spacing: 1px;
-  
 }
 
-td, th {
-  border: 4px solid rgb(190,190,190);
+td , th {
+  border: 4px solid rgb(190, 190, 190);
   padding: 10px 20px;
 }
 
 footer {
-  background-color: #523F38;
+  background-color: rgb(82, 63, 56);
   padding: 15px 0;
-  
-  
-  
   width: calc(100vw - 408px);
 }
 
